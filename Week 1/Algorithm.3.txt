@@ -1,0 +1,6 @@
+Write an algorithm to find the given integer is odd or even.
+sol:
+step1:start
+step2:read the integers
+step3:if n is divisible by 2 then print "n is even" otherwise "n is odd"
+step4:stop

@@ -1,0 +1,11 @@
+Write an algorithm to find whether a positive integer is even or odd
+sol:
+step1:start
+step2:read the positive integer num
+step3:divide the num with 2 find the remainder
+step4:if remainder is 0
+             print "num is even"
+      else 
+             print "num is odd"
+step5:stop
+  

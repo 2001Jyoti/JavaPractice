@@ -1,0 +1,8 @@
+Write an algorithm to find the percentage of marks in three subjects.
+sol:
+step1:start
+step2:read the marks of three subjects subject1_marks,subject2_marks,subject3_marks
+step3:To find the percentage of marks using the formula 
+              Percentage<---[subject1_marks+subject2_marks+subject3_marks] / 3
+step4:print Percentage
+step5:stop

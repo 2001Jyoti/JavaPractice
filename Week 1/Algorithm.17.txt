@@ -1,0 +1,8 @@
+Write an algorithm to find the simple interest given that principal(P),rate of interest(R),number of years(N).
+sol:
+step1:start
+step2:read the principal(P),rate of interest(R),number of years(N)
+step3:Calculate the simple interest by using formula 
+                simple interest<---P*R*N / 100
+step4:print simple interest
+step5:stop

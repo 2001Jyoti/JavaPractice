@@ -1,0 +1,11 @@
+Write an algorithm to find the sum of digits of positive integer.
+sol:
+step1:start
+step2:read the positive integer n
+step3:initialize sum<--0
+step4:repeatedly execute the steps (i)-(iii)
+       (i)digit<---n%10
+       (ii)sum<---sum+digit
+       (iii)n<---n/10
+step5:print sum
+step6:stop

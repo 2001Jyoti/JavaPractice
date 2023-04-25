@@ -1,0 +1,9 @@
+Write an algorithm to find the sum and average of three numbers.
+sol:
+step 1:start
+step 2:read the 3 numbers
+step 3:declare the variable "sum" and "average"
+step 4:sum=a+b+c
+step 5:avg=sum/3
+step 6:display sum and average
+step 7:stop
