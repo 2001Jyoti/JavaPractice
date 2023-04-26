@@ -1,0 +1,15 @@
+Write an algorithm to check whether a 3 digit positive integer is an armstrong number or not.
+sol:
+step1:start
+step2:read the integer n
+step3:initialize the remainder<--0,sum<--0,temp<--n
+step4:repeatedly execute the steps (i)-(iv) untill (n!=0)
+      i)remainder<---n%10
+      ii)result<---remainder * remainder * remainder
+      iii)sum<---sum+result
+      iv)n<---n/10
+step5:if(sum==temp)
+             print "temp is armstrong"
+       else
+              print "temp is not armstrong"
+step6:stop
