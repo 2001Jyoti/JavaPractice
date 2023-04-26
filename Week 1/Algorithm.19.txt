@@ -1,0 +1,9 @@
+Write an algorithm to print bitlabs 10 times.
+sol:
+step1:start
+step2:initialize count<---1
+step3:repeatedly execute the stepsn(i)-(ii) untill (count<=10)
+        i) print bitlabs
+        ii)count<--count+1
+step4:stop
+
