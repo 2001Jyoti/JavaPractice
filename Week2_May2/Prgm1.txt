@@ -1,0 +1,24 @@
+//ADD,SUB,MUL,DIV.MOD
+import java.util.Scanner;
+public class FirstProgram {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a,b,c,d,e,f,g,h,i,j;
+    System.out.println("Enter the integer");
+    a = sc.nextInt();
+    b = sc.nextInt();
+    c = sc.nextInt();
+    d = sc.nextInt();
+    e = sc.nextInt();
+    f = sc.nextInt();
+    g = sc.nextInt();
+    h = sc.nextInt();
+    i = sc.nextInt();
+    j = sc.nextInt();
+    System.out.println("a+b=" + (a + b));
+    System.out.println("a-b=" + (c - d));
+    System.out.println("a*b=" + (e * f));
+    System.out.println("a/b=" + (g / h));
+    System.out.println("a%b=" + (i % j));
+  }
+}

@@ -1,0 +1,13 @@
+//Simple Interest
+import java.util.Scanner;
+public class SimpleIntrest {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int principal,rateofintrest,numberofyears,SI;
+    System.out.println("enter the values");
+    principal = sc.nextInt();
+    rateofintrest = sc.nextInt();
+    numberofyears = sc.nextInt();
+   System.out.println("SI is="+((principal*rateofintrest*numberofyears)/100));
+  }
+}
