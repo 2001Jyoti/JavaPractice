@@ -1,0 +1,22 @@
+//to check whether a character is uppercase or lowercase  alphabet.
+import java.util.Scanner;
+public class Prgm7Alphabet {
+  public static void main(String[] args) {
+    char c;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the character");
+    c=sc.next().charAt(0);
+    if(c >= 'a' && c <= 'z')
+    {
+      System.out.println(c + " is an lowercase alphabet");
+    }
+    else if(c >= 'A' && c <= 'Z')
+    {
+       System.out.println(c + " is an uppercase alphabet");  
+    }
+    else
+    {
+      System.out.println(c + " is not alphabet.");
+    }
+  }  
+}
